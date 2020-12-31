@@ -3,9 +3,9 @@
 ***
 
 The following pipeline showcases the following concepts:
-    * Reading data from S3, processing data via Spark, and writing back to S3
-    * Using EMR as a processing platform
-    * Utilizing parquet as a way of storing data within a data lake
+* Reading data from S3, processing data via Spark, and writing back to S3
+* Using EMR as a processing platform
+* Utilizing parquet as a way of storing data within a data lake
  
 
 ## Context
