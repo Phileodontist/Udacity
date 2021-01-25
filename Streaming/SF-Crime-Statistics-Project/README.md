@@ -6,7 +6,7 @@ There are two parameters that were used to gauge throughput and latency, the two
 `processingTime` is used to determine the time interval in which a trigger executes the specificed query. <br/>
  Ex. Every 20 secs, a micro-batch will be produced with the results of the query.
  
-  is used to determine the limit in which a given trigger is able to process records. <br/>
+ `maxOffsetsPerTrigger` is used to determine the limit in which a given trigger is able to process records. <br/>
  Ex. Per trigger, up to n records can be processed for a given batch.
  
  In adjusting `processingTime`, the higher the value is, the longer a given batch takes to process the number of records specified by the `maxOffsetsPerTrigger` parameter. This parameter increases latency, where fewer batches are processed over a period of time, hence one should adjust the number accordingly to find the right amount of time needed to process records, not exceeding the amount of time need for processing; otherwise each batch falls behind. 
