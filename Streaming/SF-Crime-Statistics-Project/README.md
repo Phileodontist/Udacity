@@ -1,4 +1,4 @@
-S.F. Crime Statistics Project
+# S.F. Crime Statistics Project
 ***
 **Queston 1:** How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
 There are two parameters that were used to gauge throughput and latency, the two being: `processingTime` and `maxOffsetsPerTrigger`.
