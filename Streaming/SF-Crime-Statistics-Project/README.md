@@ -1,5 +1,17 @@
 # S.F. Crime Statistics Project
 ***
+
+### JSON Data Converted to Binary
+![alt text](https://github.com/Phileodontist/Udacity/blob/main/Streaming/SF-Crime-Statistics-Project/images/output_example_binary.png)
+
+### Progress Reporter
+![alt text](https://github.com/Phileodontist/Udacity/blob/main/Streaming/SF-Crime-Statistics-Project/images/progress_reporter.png)
+
+### Spark-UI Dashboard
+![alt text](https://github.com/Phileodontist/Udacity/blob/main/Streaming/SF-Crime-Statistics-Project/images/Spark-UI.png)
+
+
+### Spark Optimization
 **Queston 1:** How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
 There are two parameters that were used to gauge throughput and latency, the two being: `processingTime` and `maxOffsetsPerTrigger`.
 
