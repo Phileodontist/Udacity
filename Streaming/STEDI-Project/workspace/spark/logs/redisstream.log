@@ -1,0 +1,29 @@
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++----------------+--------------------+----------+----------+---------+
+|    customerName|               email|     phone|  birthDay|birthYear|
++----------------+--------------------+----------+----------+---------+
+| Christina Smith|Christina.Smith@t...|8015551212|1965-01-01|     1965|
+|   Ben Fibonnaci|Ben.Fibonnaci@tes...|8015551212|1964-01-01|     1964|
+|    Larry Khatib|Larry.Khatib@test...|8015551212|1962-01-01|     1962|
+|    Sean Jackson|Sean.Jackson@test...|8015551212|1960-01-01|     1960|
+|Suresh Habschied|Suresh.Habschied@...|8015551212|1959-01-01|     1959|
+|  Travis Jackson|Travis.Jackson@te...|8015551212|1958-01-01|     1958|
+|      Sean Olson| Sean.Olson@test.com|8015551212|1955-01-01|     1955|
+|    David Harris|David.Harris@test...|8015551212|1954-01-01|     1954|
+|   Craig Jackson|Craig.Jackson@tes...|8015551212|1953-01-01|     1953|
+|     Bobby Mitra|Bobby.Mitra@test.com|8015551212|1952-01-01|     1952|
+|    Gail Staples|Gail.Staples@test...|8015551212|1951-01-01|     1951|
+|     Jacob Ahmed|Jacob.Ahmed@test.com|8015551212|1950-01-01|     1950|
+| Santosh Lincoln|Santosh.Lincoln@t...|8015551212|1949-01-01|     1949|
+|   Jacob Jackson|Jacob.Jackson@tes...|8015551212|1947-01-01|     1947|
+|         Gail Wu|    Gail.Wu@test.com|8015551212|1945-01-01|     1945|
+|     Lyn Clayton|Lyn.Clayton@test.com|8015551212|1943-01-01|     1943|
+|   Craig Spencer|Craig.Spencer@tes...|8015551212|1942-01-01|     1942|
+|   Suresh Anandh|Suresh.Anandh@tes...|8015551212|1940-01-01|     1940|
+|     Chris Olson|Chris.Olson@test.com|8015551212|1965-01-01|     1965|
+|     Angie Mitra|Angie.Mitra@test.com|8015551212|1964-01-01|     1964|
++----------------+--------------------+----------+----------+---------+
+only showing top 20 rows
+

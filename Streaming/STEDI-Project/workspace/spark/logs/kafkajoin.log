@@ -1,0 +1,208 @@
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Bobby.Lincoln@tes...| -1.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -3.0|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -1.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -0.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -2.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -5.0|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -4.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -2.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -2.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -2.0|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -0.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -1.0|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -3.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -5.0|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -4.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -4.0|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -4.5|Bobby.Lincoln@tes...|     1954|
+| Sean.Olson@test.com| -5.5| Sean.Olson@test.com|     1955|
+| Sean.Olson@test.com| -5.0| Sean.Olson@test.com|     1955|
+| Sean.Olson@test.com| -3.5| Sean.Olson@test.com|     1955|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Bobby.Lincoln@tes...| -5.0|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -3.5|Bobby.Lincoln@tes...|     1954|
+|Ashley.Mitra@test...| 32.0|Ashley.Mitra@test...|     1944|
+|Ashley.Mitra@test...|  1.5|Ashley.Mitra@test...|     1944|
+|Angie.Ahmed@test.com| 26.5|Angie.Ahmed@test.com|     1949|
+|Angie.Ahmed@test.com|  6.5|Angie.Ahmed@test.com|     1949|
+|John.Gonzalez@tes...|-29.5|John.Gonzalez@tes...|     1965|
+|John.Gonzalez@tes...| -1.5|John.Gonzalez@tes...|     1965|
+|David.Anandh@test...| -4.0|David.Anandh@test...|     1952|
+|David.Anandh@test...| -2.5|David.Anandh@test...|     1952|
+|Senthil.Jackson@t...| -8.0|Senthil.Jackson@t...|     1962|
+|Sarah.Clayton@tes...| -4.0|Sarah.Clayton@tes...|     1953|
+|Senthil.Jackson@t...|  6.0|Senthil.Jackson@t...|     1962|
+|Sarah.Clayton@tes...| -4.0|Sarah.Clayton@tes...|     1953|
+|David.Gonzalez@te...| -7.5|David.Gonzalez@te...|     1938|
+|David.Gonzalez@te...| -7.5|David.Gonzalez@te...|     1938|
+|Chris.Staples@tes...| -0.5|Chris.Staples@tes...|     1957|
+|Chris.Staples@tes...| -1.5|Chris.Staples@tes...|     1957|
+|Gail.Anderson@tes...| -2.0|Gail.Anderson@tes...|     1951|
+|Gail.Anderson@tes...| -1.5|Gail.Anderson@tes...|     1951|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Bobby.Lincoln@tes...| -2.5|Bobby.Lincoln@tes...|     1954|
+|Ashley.Mitra@test...|  0.0|Ashley.Mitra@test...|     1944|
+|Angie.Ahmed@test.com| 25.0|Angie.Ahmed@test.com|     1949|
+|John.Gonzalez@tes...| 13.0|John.Gonzalez@tes...|     1965|
+|John.Gonzalez@tes...| 19.5|John.Gonzalez@tes...|     1965|
+|David.Anandh@test...| -1.5|David.Anandh@test...|     1952|
+|Senthil.Jackson@t...| -4.0|Senthil.Jackson@t...|     1962|
+|Sarah.Clayton@tes...| -4.0|Sarah.Clayton@tes...|     1953|
+|David.Gonzalez@te...|-24.0|David.Gonzalez@te...|     1938|
+|David.Gonzalez@te...|-11.0|David.Gonzalez@te...|     1938|
+|Chris.Staples@tes...| -3.0|Chris.Staples@tes...|     1957|
+|Gail.Anderson@tes...| -1.5|Gail.Anderson@tes...|     1951|
+|  Ashley.Wu@test.com| 14.5|  Ashley.Wu@test.com|     1942|
+|  Ashley.Wu@test.com|  1.0|  Ashley.Wu@test.com|     1942|
+|Edward.Howard@tes...| 17.0|Edward.Howard@tes...|     1947|
+|Frank.Staples@tes...|  1.0|Frank.Staples@tes...|     1963|
+|   David.Wu@test.com| 17.5|   David.Wu@test.com|     1941|
+|   David.Wu@test.com|  7.5|   David.Wu@test.com|     1941|
++--------------------+-----+--------------------+---------+
+
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Bobby.Lincoln@tes...| -3.0|Bobby.Lincoln@tes...|     1954|
+|Ashley.Mitra@test...|  7.5|Ashley.Mitra@test...|     1944|
+|Angie.Ahmed@test.com| 19.0|Angie.Ahmed@test.com|     1949|
+|John.Gonzalez@tes...| 15.5|John.Gonzalez@tes...|     1965|
+|David.Anandh@test...| -1.0|David.Anandh@test...|     1952|
+|Senthil.Jackson@t...|-11.5|Senthil.Jackson@t...|     1962|
+|Sarah.Clayton@tes...| -3.0|Sarah.Clayton@tes...|     1953|
+|Senthil.Jackson@t...|  1.0|Senthil.Jackson@t...|     1962|
+|David.Gonzalez@te...| 23.0|David.Gonzalez@te...|     1938|
+|Chris.Staples@tes...| -1.5|Chris.Staples@tes...|     1957|
+|Chris.Staples@tes...| -0.5|Chris.Staples@tes...|     1957|
+|Gail.Anderson@tes...| -3.0|Gail.Anderson@tes...|     1951|
+|  Ashley.Wu@test.com| 11.0|  Ashley.Wu@test.com|     1942|
+|Edward.Howard@tes...|  8.0|Edward.Howard@tes...|     1947|
+|Frank.Staples@tes...| 30.5|Frank.Staples@tes...|     1963|
+|Frank.Staples@tes...| 40.5|Frank.Staples@tes...|     1963|
+|   David.Wu@test.com| -9.5|   David.Wu@test.com|     1941|
++--------------------+-----+--------------------+---------+
+
+-------------------------------------------
+Batch: 4
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Bobby.Lincoln@tes...| -2.5|Bobby.Lincoln@tes...|     1954|
+|Bobby.Lincoln@tes...| -3.0|Bobby.Lincoln@tes...|     1954|
+|Ashley.Mitra@test...| 27.0|Ashley.Mitra@test...|     1944|
+|Angie.Ahmed@test.com|-30.5|Angie.Ahmed@test.com|     1949|
+|John.Gonzalez@tes...| -6.0|John.Gonzalez@tes...|     1965|
+|David.Anandh@test...| -1.5|David.Anandh@test...|     1952|
+|David.Anandh@test...| -2.0|David.Anandh@test...|     1952|
+|Sarah.Clayton@tes...| -1.5|Sarah.Clayton@tes...|     1953|
+|Senthil.Jackson@t...| 32.0|Senthil.Jackson@t...|     1962|
+|Sarah.Clayton@tes...| -1.5|Sarah.Clayton@tes...|     1953|
+|David.Gonzalez@te...|  8.5|David.Gonzalez@te...|     1938|
+|Chris.Staples@tes...| -2.0|Chris.Staples@tes...|     1957|
+|Gail.Anderson@tes...| -3.5|Gail.Anderson@tes...|     1951|
+|  Ashley.Wu@test.com|  5.5|  Ashley.Wu@test.com|     1942|
+|Edward.Howard@tes...| -5.0|Edward.Howard@tes...|     1947|
+|Frank.Staples@tes...| 18.0|Frank.Staples@tes...|     1963|
+|   David.Wu@test.com|-17.0|   David.Wu@test.com|     1941|
++--------------------+-----+--------------------+---------+
+
+-------------------------------------------
+Batch: 5
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Bobby.Lincoln@tes...| -3.5|Bobby.Lincoln@tes...|     1954|
+|Ashley.Mitra@test...| 14.0|Ashley.Mitra@test...|     1944|
+|Angie.Ahmed@test.com|  2.0|Angie.Ahmed@test.com|     1949|
+|Angie.Ahmed@test.com|-22.5|Angie.Ahmed@test.com|     1949|
+|John.Gonzalez@tes...|-24.5|John.Gonzalez@tes...|     1965|
+|David.Anandh@test...| -2.5|David.Anandh@test...|     1952|
+|Senthil.Jackson@t...| 45.0|Senthil.Jackson@t...|     1962|
+|Sarah.Clayton@tes...| -2.0|Sarah.Clayton@tes...|     1953|
+|David.Gonzalez@te...|-21.0|David.Gonzalez@te...|     1938|
+|Chris.Staples@tes...| -3.0|Chris.Staples@tes...|     1957|
+|Gail.Anderson@tes...| -2.5|Gail.Anderson@tes...|     1951|
+|Gail.Anderson@tes...| -2.5|Gail.Anderson@tes...|     1951|
+|  Ashley.Wu@test.com| 18.5|  Ashley.Wu@test.com|     1942|
+|Edward.Howard@tes...|  0.0|Edward.Howard@tes...|     1947|
+|Frank.Staples@tes...|-18.0|Frank.Staples@tes...|     1963|
+|   David.Wu@test.com| -8.5|   David.Wu@test.com|     1941|
++--------------------+-----+--------------------+---------+
+
+-------------------------------------------
+Batch: 6
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Bobby.Lincoln@tes...| -2.5|Bobby.Lincoln@tes...|     1954|
+|Ashley.Mitra@test...|-10.5|Ashley.Mitra@test...|     1944|
+|Ashley.Mitra@test...|  4.0|Ashley.Mitra@test...|     1944|
+|Angie.Ahmed@test.com|-11.5|Angie.Ahmed@test.com|     1949|
+|John.Gonzalez@tes...|-11.0|John.Gonzalez@tes...|     1965|
+|David.Anandh@test...| -2.5|David.Anandh@test...|     1952|
+|Senthil.Jackson@t...| 12.5|Senthil.Jackson@t...|     1962|
+|Sarah.Clayton@tes...| -2.0|Sarah.Clayton@tes...|     1953|
+|David.Gonzalez@te...|-13.5|David.Gonzalez@te...|     1938|
+|Chris.Staples@tes...| -2.5|Chris.Staples@tes...|     1957|
+|Gail.Anderson@tes...| -3.0|Gail.Anderson@tes...|     1951|
+|  Ashley.Wu@test.com|  1.0|  Ashley.Wu@test.com|     1942|
+|  Ashley.Wu@test.com|-18.5|  Ashley.Wu@test.com|     1942|
+|Edward.Howard@tes...|  7.5|Edward.Howard@tes...|     1947|
+|Edward.Howard@tes...|  1.0|Edward.Howard@tes...|     1947|
+|Frank.Staples@tes...|  3.0|Frank.Staples@tes...|     1963|
+|   David.Wu@test.com|  6.0|   David.Wu@test.com|     1941|
++--------------------+-----+--------------------+---------+
+
+-------------------------------------------
+Batch: 7
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Bobby.Lincoln@tes...| -1.5|Bobby.Lincoln@tes...|     1954|
+|Ashley.Mitra@test...|  7.5|Ashley.Mitra@test...|     1944|
+|Angie.Ahmed@test.com| 36.5|Angie.Ahmed@test.com|     1949|
+|John.Gonzalez@tes...|  1.0|John.Gonzalez@tes...|     1965|
+|John.Gonzalez@tes...|-10.0|John.Gonzalez@tes...|     1965|
+|David.Anandh@test...| -2.0|David.Anandh@test...|     1952|
+|Senthil.Jackson@t...|-20.5|Senthil.Jackson@t...|     1962|
+|Sarah.Clayton@tes...| -2.0|Sarah.Clayton@tes...|     1953|
+|David.Gonzalez@te...|  9.0|David.Gonzalez@te...|     1938|
+|David.Gonzalez@te...|  5.5|David.Gonzalez@te...|     1938|
+|Chris.Staples@tes...| -2.0|Chris.Staples@tes...|     1957|
+|Gail.Anderson@tes...| -3.5|Gail.Anderson@tes...|     1951|
+|  Ashley.Wu@test.com|  2.0|  Ashley.Wu@test.com|     1942|
+|Edward.Howard@tes...|-15.5|Edward.Howard@tes...|     1947|
+|Frank.Staples@tes...|-28.0|Frank.Staples@tes...|     1963|
+|   David.Wu@test.com|-21.5|   David.Wu@test.com|     1941|
+|   David.Wu@test.com|-14.0|   David.Wu@test.com|     1941|
++--------------------+-----+--------------------+---------+
+
