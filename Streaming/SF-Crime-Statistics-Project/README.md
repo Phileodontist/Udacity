@@ -12,7 +12,8 @@
 
 
 ### Spark Optimization
-**Queston 1:** How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
+**Queston 1:** How did changing values on the SparkSession property parameters affect the throughput and latency of the data? <br/>
+
 There are two parameters that were used to gauge throughput and latency, the two being: `processingTime` and `maxOffsetsPerTrigger`.
 
 `processingTime` is used to determine the time interval in which a trigger executes the specificed query. <br/>
@@ -28,7 +29,7 @@ There are two parameters that were used to gauge throughput and latency, the two
  These two parameters can be used to optimize how spark processes a given job. Parameters such as the following: `.option("numPartitions", "n")` can decrease latency as more nodes can be used to process records quicker.
 
 
-**Question 2:** What were the 2-3 most efficent SparkSession property key/value pairs? Through testing muliple variations on values, how can you tell these were the most optimal?
+**Question 2:** What were the 2-3 most efficent SparkSession property key/value pairs? Through testing muliple variations on values, how can you tell these were the most optimal? <br/>
 
 To further increase throughput, `spark.streaming.kafka.maxRatePerPartition` can be configured to increase the number of records retrieved from each topic partition. <br/>
 
