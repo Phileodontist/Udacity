@@ -15,7 +15,17 @@ The following pipeline showcases the following concepts:
 
 >As their data engineer, you are tasked with building an ETL pipeline that extracts their data from S3, processes them using Spark, and loads the data back into S3 as a set of dimensional tables. This will allow their analytics team to continue finding insights in what songs their users are listening to.
 
+## How to run ETL Pipeline
+***
+The following pipeline assumes that its within a AWS EMR cluster as its enviroment, reading from a valid S3 bucket, and writing into another valid S3 bucket. As well as, configured accordingly to have the right permissions to access S3 and utilize EMR's processing capabilities. 
 
+Once all the following dependancies are set up, running the pipeline starts with the following command: `spark-submit etl.py`
+
+When the process starts, the ETL script pulls data from the source S3 bucket, reads and transforms song and log data into appropriate fact and dimension tables, in which then is stored in the target S3 bucket.
+
+As a result, each table is stored in it's own directoy, having larger tables partitioned accordingly. With this format, analysts are able to pull data based on their needs more efficiently, relying the parititioning of the data to aid their queries.
+
+![](https://github.com/Phileodontist/Udacity/blob/main/Data-Engineering/DL-Project/images/sparkify_data_lake_pipeline.png)
 
 ## Data
 ***
@@ -115,13 +125,3 @@ With S3 as our preferred storage platform for our data lake, we ended up using i
 
   
 ***
-   
-## How to run ETL Pipeline
-
-The following pipeline assumes that its within a AWS EMR cluster as its enviroment, reading from a valid S3 bucket, and writing into another valid S3 bucket. As well as, configured accordingly to have the right permissions to access S3 and utilize EMR's processing capabilities. 
-
-Once all the following dependancies are set up, running the pipeline starts with the following command: `spark-submit etl.py`
-
-When the process starts, the ETL script pulls data from the source S3 bucket, reads and transforms song and log data into appropriate fact and dimension tables, in which then is stored in the target S3 bucket.
-
-As a result, each table is stored in it's own directoy, having larger tables partitioned accordingly. With this format, analysts are able to pull data based on their needs more efficiently, relying the parititioning of the data to aid their queries.
